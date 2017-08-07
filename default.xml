@@ -27,6 +27,12 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
+  <!-- DU remote -->
+  <remote  name="du"
+           revision="n7x"
+           fetch="https://github.com/DirtyUnicorns/"
+           review="gerrit.dirtyunicorns.com" />
+
   <default revision="refs/tags/LA.UM.5.8.r1-02400-8x98.0"
            remote="caf"
            sync-j="4"
